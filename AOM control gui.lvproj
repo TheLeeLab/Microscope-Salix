@@ -199,7 +199,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D0D15B5C-A67F-4AC3-B511-0CF2290E277F}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Salix AOM control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../application/Salix AOM control/Salix AOM control.exe</Property>
