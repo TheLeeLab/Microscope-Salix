@@ -199,7 +199,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D0D15B5C-A67F-4AC3-B511-0CF2290E277F}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Salix AOM control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../application/Salix AOM control/Salix AOM control.exe</Property>
@@ -210,7 +210,7 @@
 				<Property Name="Destination[1].path" Type="Path">../application/Salix AOM control/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0B7DA447-6151-443B-B6E0-3F9C6E4C47A1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ED166596-B799-4B35-8420-A528ED0332BF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/source/main.vi</Property>
@@ -224,7 +224,11 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/source/set_power_to_zero.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/source/set_power_to_max.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Cambridge</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Salix AOM control</Property>
 				<Property Name="TgtF_internalName" Type="Str">Salix AOM control</Property>
