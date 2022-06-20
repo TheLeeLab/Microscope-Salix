@@ -9,6 +9,11 @@ To use the application, download this repository and double-click on the file _'
 The source code of the application (inside the folder _source_) is structured as follows:
 * _main.vi_ is the main vi
 * the subfolder _source/subvis_ contains the subvi's:
-* * _power_to_voltage.vi_: takes in a percentage (from the slider) and convert to a voltage
-* * _set_power_to_max.vi_: writes the maximum voltage (1 V DC) to a given DAQ channel. This subvi is used at startup (in _main.vi_) of the application because the C-Flex manual states that "Always start with 1 V DC on the analog modulation input ...".
-* * _set_power_to_zero.vi_: writes the minimum voltage (0.5 V DC) to a given DAQ channel. This is used in _main.vi_ when the shutter button in the gui is pressed.
+    * _power_to_voltage.vi_: takes in a percentage (from the slider) and convert to a voltage
+    * _set_power_to_max.vi_: writes the maximum voltage (1 V DC) to a given DAQ channel. This subvi is used at startup (in _main.vi_) of the application because the C-Flex manual states that "Always start with 1 V DC on the analog modulation input ...".
+    * _set_power_to_zero.vi_: writes the minimum voltage (0.5 V DC) to a given DAQ channel. This is used in _main.vi_ when the shutter button in the gui is pressed.
+* the files _AOM control gui.lproj_ (project file), _AOM control gui.lproj_  and _AOM control gui.lproj_ are (part of) the project used to build the executable
+
+Any files that are generated when building the .exe file from the project are saved in the folder _builds/AOM control gui_:
+* _AOM control gui.exe_: the executable. Double-click to run the application.
+* _AOM control gui.aliases_ and _AOM control gui.ini_: files created during building of the .exe file
