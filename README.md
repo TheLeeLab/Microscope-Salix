@@ -24,4 +24,4 @@ Any files that are generated when building the .exe file from the project are sa
 
 To use the application, download this repository and double-click on the file _'AOM control gui.exe'_. This will open the gui.
 
-![This is an image of the gui.](https://github.com/TheLeeLab/Salix-AOM-control/tree/main/docs/gui_screenshot.png)
+![This is an image of the gui.](../docs/gui_screenshot.png)
