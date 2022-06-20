@@ -4,7 +4,8 @@ This repository contains code for a Labview application for controlling the powe
 
 The Labview application lets the user set a _transmission percentage_ (labeled _Power (%)_ in the gui) for each laser using a slider. This percentage is converted to a voltage value (0-100% is linearly scaled to 0.5V-1.0V). These voltage values are written to the AO0 and AO1 channels (AO0 for 515 nm and AO1 for 561 nm) of a multi-function DAQ device (USB-6002, National Instruments). A lead from each channel (and AO ground) is terminated in a male BNC connector, to connect to the respective AOM controllers. The voltages (0.5V-1.0V DC) are taken from section _6.4 AOM Modulation controls and input signals_ on p.56-57 of the C-Flex owners manual (version DO579-C September 2020).
 
-__To use the application:__ Download this repository and double-click on the file _'AOM control gui.exe'_. This will open the gui.
+
+## Source code structure
 
 The source code of the application (inside the folder _source_) is structured as follows:
 * _main.vi_ is the main vi
@@ -17,3 +18,8 @@ The source code of the application (inside the folder _source_) is structured as
 Any files that are generated when building the .exe file from the project are saved in the folder _builds/AOM control gui_:
 * _AOM control gui.exe_: the executable. Double-click to run the application.
 * _AOM control gui.aliases_ and _AOM control gui.ini_: files created during building of the .exe file
+
+
+## User instructions
+
+To use the application, download this repository and double-click on the file _'AOM control gui.exe'_. This will open the gui.
