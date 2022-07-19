@@ -24,4 +24,4 @@ Any files that are generated when building the .exe file from the project are sa
 
 To use the application, download this repository and double-click on the file _'AOM control gui.exe'_. This will open the gui (see screenshot below). It will automatically start running with transmission set at 100% for both lasers (as recommended by the manufacturer). The power can be adjusted by using the sliders. Each laser line has a _shutter_ button: when pressed, it will set transmission through the AOM to 0%, effectively acting like a shutter. When pressed again, the previous power will be restored. To exit the application, press the stop button at the bottom right corner before closing the window to ensure proper shutdown of the system.
 
-![This is an image of the gui.](/docs/gui_screenshot.png)
+![This is an image of the gui.](LabView-AOM-control/docs/gui_screenshot.png)
