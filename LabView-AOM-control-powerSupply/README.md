@@ -1,4 +1,4 @@
-# Salix-AOM-control
+# Salix-AOM-control-powerSupply
 
 This repository contains code for a Labview application for controlling the power of the 515 nm and 561 nm lasers in the C-Flex laser combiner (Hübner photonics) on _Salix_. These two lasers are Diode-Pumped Solid State (DPPS) lasers and should be run at maximum power for optimal performance. Their power can be modulated using acousto-optic modulators (AOM). There are two AOMs in the optical path of these two lasers (one for each laser), inside the C-Flex enclosure. By placing different voltagea over the AOMs, the transmission through the AOM can be set between (nearly) 0% up to 100%.
 
