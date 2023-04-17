@@ -75,33 +75,33 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="AOM-control" Type="EXE">
+			<Item Name="AOM Control" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{C9B0C430-43E9-439E-BA4F-8ED8708A1577}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4BDCE877-075E-480A-A9F9-6D03D763288F}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{485AA475-1106-4AC7-8CD7-0D2CFB942FF3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{DBDEB020-7525-4927-8AF5-937CFC79B4EC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{D008BE57-A805-421D-A397-EA91DE528A9C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">AOM-control</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B3862500-E695-4ED1-80F6-521C8EEF3A3C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AOM Control</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/AOM-control</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/AOMcontrol</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{A0186659-0605-4F77-9D6E-46C2B07FDBF6}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1F0A37CF-D12B-4F0C-AD1B-39161E34074E}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">AOM-control.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/AOM-control/AOM-control.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">AOMcontrol.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/AOMcontrol/AOMcontrol.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/AOM-control/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/AOMcontrol/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/source/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{85085953-498F-429E-920F-A7F000ADBFE7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4449BD52-14F0-4A9C-8B67-AC8B849C78D6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/source/GUI.vi</Property>
@@ -109,12 +109,56 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Cambridge</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">AOM-control</Property>
-				<Property Name="TgtF_internalName" Type="Str">AOM-control</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 University of Cambridge</Property>
-				<Property Name="TgtF_productName" Type="Str">AOM-control</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{25368A7F-04CA-4448-A313-7A0901E66A24}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">AOM-control.exe</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">AOM Control</Property>
+				<Property Name="TgtF_internalName" Type="Str">AOM Control</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 University of Cambridge</Property>
+				<Property Name="TgtF_productName" Type="Str">AOM Control</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{15494465-D732-4C66-BB52-9066017B2850}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AOMcontrol.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="AOMcontrol" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{4E2C6845-A122-4879-95C2-95E098AD1B4C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E064C6FA-896C-4BFD-BB22-AEDD0CEF4664}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B92B77C8-E7C2-498C-9F34-BFC1374A2A19}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AOMcontrol</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/AOMcontrol</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B4CCF858-031F-42F6-99CE-59A525410772}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">AOMcontrol.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/AOMcontrol/AOMcontrol.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/AOMcontrol/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/source/icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4449BD52-14F0-4A9C-8B67-AC8B849C78D6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/source</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Cambridge</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">AOMcontrol</Property>
+				<Property Name="TgtF_internalName" Type="Str">AOMcontrol</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 University of Cambridge</Property>
+				<Property Name="TgtF_productName" Type="Str">AOMcontrol</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2856E5A2-77BE-4CAD-ACE1-C93726A75432}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AOMcontrol.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
